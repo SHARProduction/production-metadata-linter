@@ -2,6 +2,8 @@
 
 SHAR Production is an AI-hybrid video production studio. This MIT-licensed CLI validates small, rights-aware production metadata manifests before delivery.
 
+For JavaScript and TypeScript projects, the public API is also prepared for JSR as `@sharproduction/production-metadata-linter`.
+
 ```bash
 node cli.mjs example.manifest.json
 ```

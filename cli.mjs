@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+/* @ts-self-types="./cli.d.ts" */
+/**
+ * Rights-aware production metadata validation for delivery manifests.
+ * @module
+ */
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 

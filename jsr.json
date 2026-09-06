@@ -1,0 +1,14 @@
+{
+  "name": "@sharproduction/production-metadata-linter",
+  "version": "1.0.0",
+  "exports": "./cli.mjs",
+  "license": "MIT",
+  "publish": {
+    "include": [
+      "cli.mjs",
+      "cli.d.ts",
+      "README.md",
+      "LICENSE"
+    ]
+  }
+}
