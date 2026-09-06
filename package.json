@@ -1,0 +1,9 @@
+{
+  "name": "@sharproduction/production-metadata-linter",
+  "version": "1.0.0",
+  "description": "Validate rights-aware production metadata manifests.",
+  "type": "module",
+  "bin": { "production-metadata-linter": "cli.mjs" },
+  "scripts": { "test": "node --test" },
+  "license": "MIT"
+}
