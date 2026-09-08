@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>shar-production-metadata-linter.portable</id>
+    <version>1.2.0</version>
+    <title>SHAR Production Metadata Linter (Portable)</title>
+    <authors>SHAR Production</authors>
+    <owners>SHAR Production</owners>
+    <projectUrl>https://sharprod.com/</projectUrl>
+    <projectSourceUrl>https://github.com/SHARProduction/production-metadata-linter</projectSourceUrl>
+    <packageSourceUrl>https://github.com/SHARProduction/production-metadata-linter/tree/main/packaging/chocolatey</packageSourceUrl>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Rights-aware production metadata manifest linter for AI-hybrid video-production delivery workflows. Downloads the official standalone Windows executable and exposes production-metadata-linter on PATH.</description>
+    <summary>Portable CLI for validating rights-aware production metadata manifests.</summary>
+    <tags>shar production metadata linter video postproduction portable cli</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
